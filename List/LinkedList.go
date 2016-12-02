@@ -5,3 +5,5 @@ type Node struct{
 	Next *Node
 	Value interface{}
 }
+
+

@@ -7,6 +7,7 @@ type Node struct{
 
 	Next *Node
 	Value interface{}
+	Count int
 }
 
 
@@ -16,13 +17,13 @@ type ArrayList struct{
 
 func NewArrayList() ArrayList{
 	var a [MAX_LENGHT]string
-	list:=ArrayList{a}
+	list:=ArrayList{a,0}
 	return list
 }
 
-func (list *ArrayList ) put(){
+func (list *ArrayList ) add(){
 
-	
+
 
 }
 
